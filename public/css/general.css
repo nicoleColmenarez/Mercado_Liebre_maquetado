@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 i  {
+    margin-left: 50px;
+    font-size: 24px;
+    font-weight: 100;
+    display: flex; 
+  }
+   h2 {
+    color: #666;
+    font-weight: normal;
+    margin: 15px;
+  
+  }
+
+  h6 i {
+    margin-left: 50px;
+    font-size: 12px;
+    font-weight: 100;
+    display: flex;
+  }
+  
+  h6 {
+    color: #666;
+    font-weight: normal;
+    margin: 15px;
+  
+  }
+
+.precio{
+    font-size: 18px;
+}
+.descuento {
+    font-size: 16px;
+}
+ .descripcion{
+    font-size: 16px;
+}

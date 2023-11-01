@@ -1,0 +1,60 @@
+header {
+    background-color: #EAC926;
+    color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.compra-cuotas {
+  display: flex;
+    align-items: center;
+    margin-left: 30px;
+    color: #666;
+}
+
+.header_mercadoLiebre {
+    width: 100%;
+    padding: 1%; 
+    background-color:#EAC926;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;   
+    border-radius:1px ;     
+    
+  }
+  
+  .header_mercadoLiebre input {
+    width: 100%;
+    padding: 10px; 
+    margin-bottom:5px; 
+    margin-left:10px; 
+    border:1px solid gray;
+  }
+ 
+  .caja_header { 
+    width: 70px; 
+    margin:0 auto;
+  } 
+
+
+.burger-menu-header i{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    background-color:#1259c3;;
+    padding: 7.5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  
+   }
+
