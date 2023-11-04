@@ -64,15 +64,21 @@ ul {
     border-radius: 5px;
     display: inline-block;
   
-   }
+    }
 
    @media (min-width:361px) {
-    .burger-menu-header i{
+    .burger-menu-header{
        display:none;
    }
    header nav{
        display: block;
    }
- }
- @media (min-width:769px) {
- }
+  }
+
+   @media (min-width: 769px) {
+    header.burger-menu-header {
+
+        display: none;
+
+    }
+  }
