@@ -7,6 +7,10 @@ header {
     text-align: left;
 }
 
+header i{
+   color: black;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +22,10 @@ header {
     align-items: center;
     margin-left: 30px;
     color: #666;
+}
+
+ul {
+  margin-bottom: 15px;
 }
 
 .header_mercadoLiebre {
@@ -58,3 +66,13 @@ header {
   
    }
 
+   @media (min-width:361px) {
+    .burger-menu-header i{
+       display:none;
+   }
+   header nav{
+       display: block;
+   }
+ }
+ @media (min-width:769px) {
+ }
