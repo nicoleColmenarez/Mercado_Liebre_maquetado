@@ -28,6 +28,13 @@ article .imagen_producto{
     border: 1px solid var(--colorGrisClaro);
     padding: 15px;
 }
+.descuento {
+    font-size: 16px;
+    color:#39b54a ;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
 .contenedor .descripcion{
     color: var(--colorGrisOscuro);
     margin-top: 20px;
@@ -44,14 +51,6 @@ article .imagen_producto{
 
 .icono_camion{
     color:#39b54a
-
-}
-
-.descuento {
-    font-size: 16px;
-    color:#39b54a ;
-    margin-top: 10px;
-    margin-left: 20px;
 
 }
 
