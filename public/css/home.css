@@ -6,7 +6,10 @@ main .banner{
     width: 100%;
 }
 section{
-    margin: 0 5%;
+    margin:5%;
+}
+main section article{
+    margin:10px;
 }
 section article{
     width: 100%;
@@ -15,9 +18,7 @@ section article{
     justify-content: center;
     align-items: center;
 }
-main section article{
-    margin: 10px 0;
-}
+
 article .imagen_producto{
     width: 100%;
     height: auto;
