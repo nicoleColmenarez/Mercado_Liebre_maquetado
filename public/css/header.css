@@ -59,14 +59,13 @@ ul {
     color: white;
     margin-bottom: 20px;
     margin-left: 150px;
-    background-color:#1259c3;;
+    background-color:#1259c3;
     padding: 7.5px 10px;
     border-radius: 5px;
     display: inline-block;
-  
-    }
+ }
 
-   @media (min-width:361px) {
+ @media (min-width:361px) {
     .burger-menu-header{
        display:none;
    }
