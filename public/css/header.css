@@ -59,20 +59,57 @@ ul {
     color: white;
     margin-bottom: 20px;
     margin-left: 150px;
-    background-color:#1259c3;;
+    background-color:#1259c3;
     padding: 7.5px 10px;
     border-radius: 5px;
     display: inline-block;
-  
    }
 
    @media (min-width:361px) {
-    .burger-menu-header i{
-       display:none;
-   }
-   header nav{
-       display: block;
-   }
- }
- @media (min-width:769px) {
- }
+    .cont__burger{
+      display:none;
+  }
+  header nav{
+      display: flex;
+      justify-content: space-between; 
+  }
+   nav ul{
+      display: flex; 
+  }
+   nav ul li{
+      margin: 10px; 
+  }
+}
+
+  @media(min-width: 768px){ 
+    .header_mercadoLiebre{
+        width: 30%;
+    }
+    .barraDeBusqueda_header{
+        width: 30%;
+    }
+    
+    .header_listas{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 10px 10px;
+    }
+
+    .header_listas i{
+        margin-left: 2px;
+    }
+    .header_listas nav{
+        width: 45%;
+    }
+    .header_listas nav ul{
+        display: flex;
+        gap: 10px;
+    }
+    .header_listasConIconos{
+        justify-content: flex-end;
+    }
+    .burger-menu-header {
+        display: none;
+    }
+}
