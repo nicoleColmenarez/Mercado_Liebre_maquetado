@@ -10,8 +10,11 @@ header {
 
 .header_mercadoLiebre  {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;  
 }
 
 header  i{
@@ -45,17 +48,17 @@ header  i{
   border-bottom-right-radius:10px 
 }
 .lupa i{
-  color: #666;
+  color: #121212;
 }
-
  .compra-cuotas  {
   display: flex;
-  justify-content: center;
+  justify-content:center;
   margin: 5px;
   font-weight: 600;
 }
  .compra-cuotas i {
   margin-right: 2px;
+  margin-top: 10px;
 }
 header nav {
   display:none;
@@ -71,21 +74,15 @@ li a{
 ul {
   margin-bottom: 15px;
 }
-
-.header_mercadoLiebre {
-    background-color:#EAC926;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 20px;           
-  }
   
-  .header_mercadoLiebre input {
-    width: 100%;
-    padding: 10px; 
-    margin-left:10px; 
-    border:1px solid gray;
-  }
+.header_mercadoLiebre input {
+  width: 175px;
+  height: 35px;
+  border: transparent 0.2px;
+  border-radius: 5%;
+  left: 175px;
+  bottom: 58px;
+}
 
 .burger-menu-header i{
     font-size: 20px;
@@ -109,9 +106,15 @@ ul {
   }
   .header_mercadoLiebre{
       display: flex;
-      flex-direction: row;
+      flex-direction:row;
       justify-content: space-between;
       width: 100%;
+  }
+  .contenedor_del_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
   }
   
   .burger-menu-header{
@@ -122,12 +125,13 @@ ul {
       display: flex;
       justify-content: space-between;
       width: 100%;
-      height: 40px;
+      height: 30px;
   }
 
   header nav ul{
       display: flex;
-      gap: 10px; 
+      gap: 15px; 
+      margin: 2%;
   }
 
   .compra-cuotas{
@@ -136,12 +140,17 @@ ul {
   }
 }
 
-@media (min-width: 1024px){
-  .logo_mercadoLiebre img{
-      width: 25vh;
-    
+@media (min-width: 1440px){
+ 
+  .barraDeBusqueda_header{
+   padding: 10% ;
+   margin-inline : 50%;
+   display: flex;
+   flex-direction: row;
   }
-
+  header nav ul{
+    display: flex;
+    gap: 15px; 
+    margin: 1%;
 }
-
-
+}

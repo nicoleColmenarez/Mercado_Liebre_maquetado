@@ -23,6 +23,13 @@
 
 }
 
+.montos_home_articulo{
+    display: flex;
+    flex-direction: row;
+    gap: 15px; 
+    
+}
+
 .home_articulo img{
     width: 100%;
 }
@@ -87,8 +94,7 @@ main section article i{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
-    .home_articulo {
+     .home_articulo {
         width: 24%;
     }
 }
