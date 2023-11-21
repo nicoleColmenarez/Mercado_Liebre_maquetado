@@ -1,0 +1,46 @@
+.main_formularios .login_main_mercadoLiebre {
+    padding: 10px;
+    margin: 0;
+    background-color: var(--colorGrisClaro);
+}
+
+.main_formularios .login_main_mercadoLiebre form input {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 25px;
+    position: relative;
+    left: 86px;
+    width: 200px;
+    border: transparent;
+    border-radius: 8px;
+}
+
+.main_formularios .login_main_mercadoLiebre form button {
+    position: relative;
+    left: 90px;
+    width: 190px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: var(--colorCeleste);
+    border-radius: 10px;
+    color: #ebebeb;
+}
+
+@media (min-width: 768px) {
+
+    .main_formularios .login_main_mercadoLiebre form button,
+    .main_formularios .login_main_mercadoLiebre form input {
+        left: 200px;
+        width: 370px;
+    }
+
+    @media (min-width:1440px) {
+
+        .main_formularios .login_main_mercadoLiebre form button,
+        .main_formularios .login_main_mercadoLiebre form input {
+            left: 400px;
+            width: 600px;
+        }
+    }
+}
