@@ -20,8 +20,7 @@
     background-color: #fff;
     padding: 20px;
     margin: 20px 0px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
-
+   
 }
 
 .montos_home_articulo{
@@ -41,7 +40,7 @@
 }
 
 
-main div  i{
+.icono_camion  i{
     display: flex;
     font-size: 16px;
     padding: 5px;
@@ -53,6 +52,10 @@ main div  i{
     right: 20px;
     top: -15px;
     color:#39b54a;
+    transition: all 5s;
+}
+.icono_camion i:hover{
+    transform: rotate(360deg);
 }
 
 .precio {
@@ -68,10 +71,25 @@ main div  i{
  .descuento{
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 0px;
 }
 
-  /*Tablet*/
+.home_articulo:hover {
+    box-shadow: 0 4px 6px 5px rgba(68, 68, 68, 0.8);
+    cursor: default;
+}
+.home_articulo:hover .descripcion{
+    display: block;
+    animation: aparecerDescripcion 3s ease;
+}
+@keyframes aparecerDescripcion {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 @media (min-width: 768px){
 

@@ -24,7 +24,7 @@
     border-radius: 8px;
 }
 
-.main_register .formulario_register_mercadoLiebre form .btn_sr button {
+.main_register .formulario_register_mercadoLiebre form .button_enviar_borrar button {
     width: 50%;
     position: relative;
     left: 80px;
@@ -48,6 +48,12 @@
     margin: 0 40px;
 }
 
+.button__enviar:hover {
+    animation: colorEnviar 5s ease-in-out;
+    background-color: #0022AA;
+}
+
+
 @media (min-width:768px) {
     .main_register .formulario_register_mercadoLiebre form .datos input {
         left: 25px;
@@ -59,7 +65,7 @@
         margin-top: 10px;
     }
 
-    .main_register .formulario_register_mercadoLiebre form .btn_sr button {
+    .main_register .formulario_register_mercadoLiebre form .button_enviar_borrar button {
         left: 190px;
         padding: 5px;
         margin: 5px;
@@ -88,7 +94,7 @@
        
         }
 
-    .main_register .formulario_register_mercadoLiebre form .btn_sr button {
+    .main_register .formulario_register_mercadoLiebre form .button_enviar_borrar button {
         width: 300px;
         padding: 10px;
         left: 400px;

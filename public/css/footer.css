@@ -60,4 +60,35 @@ h5 {
     text-align: center;
   }
 
- 
+  footer .icono_regalo, .icono_seguridad, .icono_tarjeta{
+    position: relative;
+    left: 8px;
+  }
+  .icono_regalo i, .icono_seguridad i, .icono_tarjeta i{
+    transition: color 1s ease;
+  }
+
+  .icono_regalo i:hover, .icono_seguridad i:hover , .icono_tarjeta i:hover{
+    color:#39b54a
+  }
+
+  @media (min-width:768px) {
+
+    footer .icono_regalo, footer .icono_seguridad, footer .icono_tarjeta {
+        position: relative;
+        left: 25px;
+    }
+}
+
+@media (min-width:1440px) {
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+footer .icono_regalo, footer .icono_seguridad, footer .icono_tarjeta {
+  width: 30%;
+}
+}
